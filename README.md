@@ -2,6 +2,11 @@
 工具仅用于分享交流，切勿用于非授权测试，否则与作者无关
 参考：https://github.com/akkuman/rotateproxy  对原作者的工具进行了修改
 
+编译：
+```
+go build
+```
+
 将fofa页面上的socks5代理的爬虫数量设置成自定义
 
 
@@ -20,3 +25,4 @@
 默认端口为 8899
 默认规则为 `protocol=="socks5" && "Version:5 Method:No Authentication(0x00)" && after="2021-01-01" && country="CN"`
 默认爬取数量为 3500
+
